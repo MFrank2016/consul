@@ -7,6 +7,7 @@ module('Unit | Search | Filter | node', function() {
     [
       {
         Node: 'node-HIT',
+        Address: '10.0.0.0',
       },
     ].forEach(function(item) {
       const actual = filter(item, {
@@ -19,6 +20,7 @@ module('Unit | Search | Filter | node', function() {
     [
       {
         Node: 'name',
+        Address: '10.0.0.0',
       },
     ].forEach(function(item) {
       const actual = filter(item, {
